@@ -45,9 +45,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E882E98329E69C7500B5FAE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E882E98429E69C8500B5FAE5 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		E882E98529E69C8E00B5FAE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E8FADBED29DD6A4400AC579F = {
 			isa = PBXGroup;
 			children = (
+				E882E98529E69C8E00B5FAE5 /* Model */,
+				E882E98429E69C8500B5FAE5 /* View Model */,
+				E882E98329E69C7500B5FAE5 /* View */,
 				E8FADBF829DD6A4400AC579F /* cloneToss */,
 				E8FADBF729DD6A4400AC579F /* Products */,
 			);
