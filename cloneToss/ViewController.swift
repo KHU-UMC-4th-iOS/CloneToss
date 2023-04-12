@@ -10,9 +10,11 @@ import RxSwift
 import RxCocoa
 
 class ViewController: UIViewController {
-
+    let firstView = BaseView()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        firstView.initViews(superView: self.view)
+        
     }
 }
